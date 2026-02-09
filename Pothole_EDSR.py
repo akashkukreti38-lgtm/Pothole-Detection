@@ -42,8 +42,8 @@ midas_scale_to_meters = None
 # Training params
 NUM_CLASSES = 2  # background + pothole
 BATCH_SIZE = 2
-NUM_EPOCHS = 8
-LEARNING_RATE = 0.005
+NUM_EPOCHS = 5
+LEARNING_RATE = 0.1
 
 # Device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
